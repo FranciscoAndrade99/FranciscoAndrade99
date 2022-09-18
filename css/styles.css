@@ -189,6 +189,7 @@ body {
     background: url("../img/bakbaner.png");
     background-position: -185px -200px;
     margin: 20px auto;
+    overflow: hidden;
     animation: backbanner 10s linear;
 
 }
@@ -212,6 +213,34 @@ body {
     text-shadow: 2px 2px 1px black;
     margin: 27px auto;
     text-align: center;
+    animation: showtext 10s linear;
+}
+@keyframes showtext {
+    0%{
+        transform: translateX(-600%) scale(5,5);
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(600%) scale(5,5);
+        opacity: 1;
+
+
+    }
+    75%{
+        transform: translateX(-600%) scale(5,5);
+        text-shadow: none;
+        color: transparent;
+        opacity: 0;
+
+    }
+    100%{
+        transform: translateX(0%) scale(1,1);
+        text-shadow: 2px 2px 1px black;
+        color: white;
+        opacity: 1;
+
+
+    }
 }
 
 /*cards*/
