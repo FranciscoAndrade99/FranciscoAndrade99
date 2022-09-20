@@ -255,6 +255,10 @@ body {
     margin: 22px;
     margin-top: 40px;
     cursor: pointer;
+    transition: all 300ms;
+}
+.cards:hover{
+    background: black;
 }
 
 .cards:last-child {
@@ -270,9 +274,23 @@ body {
     line-height: 110px;
     text-align: center;
     margin: 0px auto;
-
+    transition: all 300ms;
 }
 
+.cards:hover .icon{
+    font-size: 70px;
+    color: #37bcf9;
+    animation: showicon 300ms linear;
+    
+}
+@keyframes showicon {
+    from{
+        transform: translateY(-200%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
 .cards .category {
     width: 100%;
     height: 50px;
