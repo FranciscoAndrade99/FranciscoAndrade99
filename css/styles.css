@@ -529,6 +529,19 @@ aside h3 {
     border: 3px solid white;
     box-shadow: 0px 0px 4px #ccc;
     background: #f4f7fe;
+    position: absolute;
+    padding: 5px;
+    margin-left: 70px;
+    margin-top: -52px;
+    cursor: pointer;
+    transform: translateX(-80%);
+    opacity: 0;
+    transition: all 400ms;
+
+}
+#social div:hover .overlay{
+    opacity: 1;
+    transform: translateX(0%);
 
 }
 
