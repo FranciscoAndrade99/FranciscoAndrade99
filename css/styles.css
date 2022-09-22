@@ -647,19 +647,19 @@ aside h3 {
 }
 @keyframes blink {
     0%{
-        border:10px solid #5585b5
+        border:10px solid #5585b5;
     }
     25%{
-        border:10px solid #53a8b6
+        border:10px solid #53a8b6;
     }
     50%{
-        border:10px solid #79c2d0
+        border:10px solid #79c2d0;
     }
     75%{
-        border:10px solid #bbe4e9
+        border:10px solid #bbe4e9;
     }
     100%{
-        border:10px solid #5585b5
+        border:10px solid #5585b5;
     }
 }
 /*footer*/
