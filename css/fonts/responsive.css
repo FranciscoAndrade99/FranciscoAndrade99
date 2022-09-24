@@ -7,4 +7,10 @@
         width: 17%;
         margin: 1.45%;
     }
+    #articles{
+        width: 65%;
+    }
+    #articles article{
+        width: 97%;
+    }
 }
