@@ -63,7 +63,8 @@
     #articles {
         width: 59%;
     }
-    #footer .wrap > div{
+
+    #footer .wrap>div {
         width: 25%;
         margin: 20px;
     }
@@ -93,7 +94,8 @@
         height: auto;
         padding-bottom: 10px;
     }
-    #login a{
+
+    #login a {
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -115,8 +117,40 @@
     #login button {
         margin-bottom: 0px auto;
     }
-    #login input[type="reset"]{
+
+    #login input[type="reset"] {
         display: none;
     }
-    
+
+}
+
+@media (max-width: 899px) {
+    #side h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 799px) {
+    #banner h1 {
+        font-size: 29px;
+    }
+
+    .cards {
+        height: auto;
+    }
+
+    .cards .category {
+        font-size: 15px;
+        margin-top: -23px;
+    }
+
+    .cards .description {
+        display: none;
+    }
+
+    #footer img {
+        margin-bottom: 15px;
+        max-width: 100%;
+    }
+
 }
