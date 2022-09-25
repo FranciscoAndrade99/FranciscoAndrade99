@@ -35,3 +35,14 @@
     }
   
 }
+@media (max-width: 1080px) {
+    .cards .category{
+        font-size: 17px;
+    }
+    .cards .description{
+        font-size: 14px;
+    }
+    #articles{
+        width: 61%;
+    }
+}
